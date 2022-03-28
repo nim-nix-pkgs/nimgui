@@ -11,7 +11,6 @@
   inputs.src-nimgui-master.ref   = "refs/heads/master";
   inputs.src-nimgui-master.owner = "zacharycarter";
   inputs.src-nimgui-master.repo  = "nimgui";
-  inputs.src-nimgui-master.dir   = "";
   inputs.src-nimgui-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
